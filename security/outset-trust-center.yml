@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://outset.ai/platform/security
+url: https://outset.ai/platform/security
+certifications:
+- SOC 2 Type II
+- ISO 42001
+- HIPAA
+- GDPR
+evidence:
+- source: https://outset.ai/platform/security
+  keywords:
+  - soc 2 type ii
+  - iso 42001
+  - hipaa
+  - gdpr
