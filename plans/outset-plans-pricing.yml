@@ -1,0 +1,25 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://outset.ai/pricing
+sources:
+- https://outset.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Pricing page for Outset's AI-moderated research
+  platform lists feature sets and add-ons but no numeric prices; pricing is custom/quote-based ('Get custom
+  pricing', 'Book a demo').
+plan_count: 1
+plans:
+- name: Custom plan
+  price_text: Get custom pricing
+  period: none
