@@ -23,3 +23,16 @@ plans:
 - name: Custom plan
   price_text: Get custom pricing
   period: none
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Custom plan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
