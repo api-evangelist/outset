@@ -14,7 +14,7 @@ edges:
     registered_name: ai.outset/mcp
     register_id: ai.outset/mcp
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-15'
+    detected: '2026-10-19'
   mcp_registry:
     servers:
     - ai.outset/mcp
@@ -30,7 +30,37 @@ edges:
   - namespace-domain
   detected_by: sweep-agent-tools.py
   first_seen: '2026-10-14'
+- partner_name: Insights Association
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.insightsassociation.org/Membership/Our-Members
+  category: market research trade association membership
+  contract_reference:
+    register: Insights Association member organisations (insightsassociation.org/Membership/Our-Members, organizationdll.dll/List)
+    standard: Insights Association Code of Standards
+    spec_file: null
+    role: insights-association-member
+    registered_name: Outset
+    partner_tier: Agency/Supplier
+    register_location: San Francisco, CA
+    matched_domain: outset.ai
+    matched_by: domain
+    signal_note: 'participation: member organisation bound by the IA Code of Standards; CIRQ certifications -> certified_products
+      (one per certification type); GDQ Pledge / Privacy Framework are context, never counted'
+    detected_by: sweep-surveys-research.py
+    detected: '2026-10-20'
+  detected_by: sweep-surveys-research.py
+  first_seen: '2026-10-20'
 generated: '2026-10-14'
 method: searched
 checked:
 - https://registry.modelcontextprotocol.io/v0/servers
+- https://www.insightsassociation.org/Membership/Our-Members
+- https://www.insightsassociation.org/cv5/cgi-bin/organizationdll.dll/List
+source:
+- https://www.insightsassociation.org/Membership/Our-Members
+- https://www.insightsassociation.org/cv5/cgi-bin/organizationdll.dll/List
